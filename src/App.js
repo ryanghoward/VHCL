@@ -1,4 +1,5 @@
 import React from "react";
+import Find from "./components/find/Find";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      <Find />
     </div>
   );
 }
