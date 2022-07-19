@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/VHCL/static/css/main.9e563b5d.css",
+    "main.js": "/VHCL/static/js/main.5a6e9019.js",
+    "static/media/guydriving.png": "/VHCL/static/media/guydriving.6bd20e182296ea68fb9b.png",
+    "static/media/VHCLLogoDark.PNG": "/VHCL/static/media/VHCLLogoDark.c1be1459af74093e19b4.PNG",
+    "static/media/VHCLLogoLight.PNG": "/VHCL/static/media/VHCLLogoLight.9c0c5ff48ef619af859d.PNG",
+    "index.html": "/VHCL/index.html",
+    "main.9e563b5d.css.map": "/VHCL/static/css/main.9e563b5d.css.map",
+    "main.5a6e9019.js.map": "/VHCL/static/js/main.5a6e9019.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e563b5d.css",
+    "static/js/main.5a6e9019.js"
+  ]
+}
