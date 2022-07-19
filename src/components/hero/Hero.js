@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
         <div className={styles.search_btn}>
           <AiOutlineSearch className={styles.icon} />
-          <button className={styles.btn}>Search for Cars</button>
+          <button className={styles.btn}>Search Cars</button>
         </div>
       </form>
     </div>

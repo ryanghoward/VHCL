@@ -10,7 +10,7 @@ const Find = () => {
   return (
     <div className={styles.find}>
       <div className={styles.heading}>
-        <h1>Find your VHCL</h1>
+        <h1>Find your next ride.</h1>
         <div className={styles.text_bg}>
           <p>
             <span>Explore the world's largest car sharing marketplace</span>
@@ -24,17 +24,14 @@ const Find = () => {
           slidesPerView={5}
           navigation
           breakpoints={{
-            //! Window width is >= 340px
             340: {
               width: 200,
               slidesPerView: 1,
             },
-            //! Window width is >= 768px
             768: {
               width: 768,
               slidesPerView: 4,
             },
-            //! Window width is >= 1040px
             1040: {
               width: 1040,
               slidesPerView: 5,
@@ -63,21 +60,8 @@ const Find = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              image='https://images.unsplash.com/photo-1608994751987-e647252b1fd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1lcmNlZGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
-              make='Mercedes-Benz'
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              image='https://images.unsplash.com/photo-1581540222194-0def2dda95b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bmlzc2FufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
-              make='Nissan'
-            />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Card
-              image='https://images.unsplash.com/photo-1600718042170-36ac0c42e203?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHRveW90YXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
-              make='Toyota'
+              image='https://images.unsplash.com/photo-1582467029213-ce71667c2e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
+              make='Ford'
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -88,14 +72,26 @@ const Find = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              image='https://images.unsplash.com/photo-1582467029213-ce71667c2e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
-              make='Ford'
+              image='https://images.unsplash.com/photo-1608994751987-e647252b1fd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1lcmNlZGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+              make='Mercedes-Benz'
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card
+              image='https://images.unsplash.com/photo-1581540222194-0def2dda95b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bmlzc2FufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+              make='Nissan'
             />
           </SwiperSlide>
           <SwiperSlide>
             <Card
               image='https://images.unsplash.com/photo-1636060889550-20762f149c5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTl8fHRlc2xhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
               make='Tesla'
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card
+              image='https://images.unsplash.com/photo-1600718042170-36ac0c42e203?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHRveW90YXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
+              make='Toyota'
             />
           </SwiperSlide>
         </Swiper>

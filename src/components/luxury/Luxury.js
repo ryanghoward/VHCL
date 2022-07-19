@@ -8,16 +8,14 @@ const Luxury = () => {
         <h1>VHCL+</h1>
         <div className={styles.text_bg}>
           <p>
-            <span>
-              Select from the top luxury VHCLs to roll around in style
-            </span>
+            <span>Select from top luxury vehicles to roll around in style</span>
           </p>
         </div>
       </div>
       <div className={styles.container}>
         <div className={styles.card}>
           <img
-            src='https://images.unsplash.com/photo-1598195221927-fc335f446870?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80'
+            src='https://images.unsplash.com/photo-1599912027611-484b9fc447af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cm9sbHMlMjByb3ljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
             alt='Rolls Royce'
           />
           <div className={styles.content}>
@@ -35,11 +33,11 @@ const Luxury = () => {
         </div>
         <div className={styles.card}>
           <img
-            src='https://images.unsplash.com/photo-1549632891-a0bea6d0355b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1463&q=80'
-            alt='Range Rover'
+            src='https://images.unsplash.com/photo-1617917572835-5ab878656dcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGZlcnJhcml8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
+            alt='Ferrari'
           />
           <div className={styles.content}>
-            <h3>Range Rover</h3>
+            <h3>Ferrari</h3>
           </div>
         </div>
         <div className={styles.card}>

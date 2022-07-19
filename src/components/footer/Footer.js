@@ -7,7 +7,7 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className={styles.container}>
         <img src={LogoDark} alt='' />
-        <button>Share your VHCL</button>
+        <button>Share Your Car</button>
       </div>
     </div>
   );
