@@ -20,6 +20,10 @@
   font-size: 0.8rem;
 }
 
+.navbar img {
+  height: 3rem;
+}
+
 .mobile_btn {
   display: none;
 }

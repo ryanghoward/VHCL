@@ -1,13 +1,13 @@
 import React from "react";
-import Logo from "../../images/DriveLogoLight.png";
+import LogoDark from "../../images/VHCLLogoDark.PNG";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.container}>
-        <img src={Logo} alt='' />
-        <button>Share A Car</button>
+        <img src={LogoDark} alt='' />
+        <button>Share your VHCL</button>
       </div>
     </div>
   );
